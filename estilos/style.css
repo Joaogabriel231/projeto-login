@@ -60,3 +60,68 @@ div#form > h1{
 div#form > p{
     font-size: 0.8em;
 }
+div.campo{
+    background-color: #5f2c82;
+    outline-color: #327573;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px ;
+    margin :5px 0px;
+}
+form label{
+    display: none;
+}
+
+form input{
+    background-color: #5cd3cf;
+    border: none;
+    height: 32px;
+    border-radius: 5px;
+    width: 82%;
+    padding-top: 7px;
+    font-size: 1,2em;
+    text-indent: 10px;
+}
+div.campo > span{
+    font-size: 1.5em;
+    color: azure;
+    padding: 5px;
+}
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+input[type=submit]:hover{
+    background-color:#327573 ;
+    cursor: pointer;
+
+}
+a.botao{
+    display:block ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 7px;
+    color: #174746;
+    padding-top: 5px;
+    margin-top: 5px;
+    border: 1px solid #42a89d;
+
+}
+a.botao:hover{
+    background-color: #5cd3cf;
+}
+a.botao > span{
+    font-size: 0.8em;
+}

@@ -18,7 +18,11 @@
         float: right;
         width: 70%;
     }
-
+    input[type=submit], a.botao{
+        width: 70%;
+        margin: auto;
+        margin-top: 5px;
+    }
 }
 @media screen and (min-width: 992px){
     body{
@@ -40,5 +44,12 @@
     }
     div#form > p{
     font-size: 1.2em;
-}
+    }
+    input[type=submit],a.botao{
+        width: 55%;
+        margin: auto;
+        margin-top: 5px;
+
+
+    }
 }
