@@ -50,7 +50,8 @@
         width: 50%;
     }
     div#form > p{
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 10px 0px;
     }
     input[type=submit]{
         width: 55%;
