@@ -66,7 +66,8 @@ div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px ;
+    border-radius: 8px ;
+    border: 2px solid #3f155c;
     margin :5px 0px;
 }
 form label{
@@ -75,18 +76,25 @@ form label{
 
 form input{
     background-color: #5cd3cf;
-    border: none;
-    height: 32px;
+    border: 0px;
+    height: 100%;
+    width: calc(100% - 45px);
+    transform: translateY(-13px);
     border-radius: 5px;
-    width: 82%;
-    padding-top: 7px;
-    font-size: 1,2em;
-    text-indent: 10px;
+    text-indent: 8px;
+    padding-top: 2px;
 }
 div.campo > span{
-    font-size: 1.5em;
+    font-size: 2em;
     color: azure;
     padding: 5px;
+    width: 40px;
+    border-radius: 8px;
+    
+}
+div.campo > input:focus-within{
+    background-color: white;
+
 }
 input[type=submit]{
     display: block;
@@ -97,7 +105,7 @@ input[type=submit]{
     color: white;
     border: none;
     border-radius: 5px;
-    
+    margin-top: 18px;
 }
 input[type=submit]:hover{
     background-color:#327573 ;
@@ -115,7 +123,6 @@ a.botao{
     border-radius: 7px;
     color: #174746;
     padding-top: 5px;
-    margin-top: 5px;
     border: 1px solid #42a89d;
 
 }

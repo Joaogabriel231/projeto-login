@@ -6,6 +6,7 @@
     }
     section#login{
         width: 80vh;
+        height: 300px;
 
 
     }
@@ -18,10 +19,15 @@
         float: right;
         width: 70%;
     }
-    input[type=submit], a.botao{
+    input[type=submit]{
+        margin: auto;
+        margin-top: 20px;
+        width: 70%;
+        
+    }
+    a.botao{
         width: 70%;
         margin: auto;
-        margin-top: 5px;
     }
 }
 @media screen and (min-width: 992px){
@@ -30,6 +36,7 @@
     }
     section#login{
         width: 950px;
+        height: 450px;
 
     }
     section#login > div#imagem{
@@ -45,10 +52,14 @@
     div#form > p{
     font-size: 1.2em;
     }
-    input[type=submit],a.botao{
+    input[type=submit]{
+        width: 55%;
+        margin: auto ;
+        margin-top: 20px;
+    }
+    a.botao{
         width: 55%;
         margin: auto;
-        margin-top: 5px;
 
 
     }
